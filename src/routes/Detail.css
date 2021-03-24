@@ -1,0 +1,43 @@
+.detail {
+  padding: 30px;
+  display: flex;
+  width: 100%;
+  height: 95%;
+  font-size: 16px;
+}
+
+.detail img {
+  width: 25%;
+  height: 70%;
+  margin-right: 30px;
+}
+
+.detail__data {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.detail__title {
+  font-size: 25px;
+  font-weight: 600;
+}
+.detail__year {
+  margin: 10px 0px;
+  font-size: 14px;
+}
+.detail__genres {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.detail__genres .genres__genre:not(:last-child) {
+  margin-right: 15px;
+}
+
+.detail__summary {
+  padding-top: 15px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  width: 90%;
+  font-size: 20px;
+}
